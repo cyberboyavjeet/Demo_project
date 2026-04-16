@@ -10,6 +10,7 @@ import BasicList from './components/BasicList.jsx'
 import TailwindCssTest from './components/TailwindCssTest.jsx'
 import IsSubscribed from './components/IsSubscribed.jsx'
 import ReportCard from './components/ReportCard.jsx'
+import RegistrationForm from './components/RegistrationForm.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,7 +19,8 @@ createRoot(document.getElementById('root')).render(
     <CounterApp></CounterApp*/}
     {/* <BasicList></BasicList> */}
     {/* <IsSubscribed status ={ false}></IsSubscribed> */}
-    <ReportCard></ReportCard>
+    {/* <ReportCard></ReportCard> */}
+    <RegistrationForm></RegistrationForm>
     {/* <TailwindCssTest></TailwindCssTest> */}
   </StrictMode>,
 )

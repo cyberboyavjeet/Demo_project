@@ -1,7 +1,7 @@
 import React from "react"
 function ReportCard (){
     const students=[
-        {id:1, sname:'Avjeet',marks:19},{id:2, sname:'Gaurav',marks:20},{id:3, sname:'Ashish',marks:18}
+        {id:1, sname:'Avjeet',marks:0},{id:2, sname:'Gaurav',marks:20},{id:3, sname:'Ashish',marks:18}
         ,{id:4,sname:'Aru',marks:19},{id:5,sname:'Ayush',marks:7},{id:6,sname:'charles',marks:0}
     ]   
     return (
